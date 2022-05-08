@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - log in or sign up</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-200">
+    <main class="flex mt-52 mx-auto justify-center content-center">
+      <div class="left w-1/3 mr-16">
+        <img src="/images/logo.svg" class="w-60 pl-0" />
+        <span class="font-sans text-2xl pl-5 flex max-w-32"
+          >Facebook helps you connect and share with the people in your
+          life.</span
+        >
+      </div>
+      <div
+        class="right flex flex-col ml-16 -mt-20 border-2 border-black-500 rounded-xl bg-neutral-50"
+      >
+        <input
+          type="text"
+          placeholder="Email address or phone number"
+          class="m-4 -mb-0.5 h-14 border-gray-200 border-2 rounded-lg pl-4"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          class="m-4 h-14 border-gray-200 border-2 rounded-lg pl-4"
+        />
+        <form action="">
+          <button
+            formaction="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjUyMDM0NDU2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D"
+            class="btn bg-blue-600 hover:bg-blue-700 m-4 -mb-0.5 h-14 border-2 rounded-lg pl-4 text-white font-bold
+            w-96"
+          >
+            Log In
+          </button>
+        </form>
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="text-center my-6 hover:underline text-blue-700"
+          >Forgetten password?</a
+        >
+        <hr />
+        <button
+          class="btn bg-green-600 hover:bg-green-700 ml-24 mr-20 my-6 h-14 border-2 rounded-lg pl-4 text-white font-bold w-auto pr-4"
+        >
+          <a href="https://www.facebook.com/">Create New Account</a>
+        </button>
+      </div>
+    </main>
+    <div class="flex mr-72 mt-5 justify-end text-sm">
+      <a href="https://www.facebook.com/pages/create/?ref_type=registration_form" class="font-bold hover:underline mr-1">Create a Page</a>
+      for a celebrity, brand or business.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
